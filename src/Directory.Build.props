@@ -1,0 +1,24 @@
+<Project>
+
+  <PropertyGroup>
+    <Authors>Isaac Levin</Authors>
+    <Product>dotnet-cowsay</Product>
+    <Copyright>Copyright © Isaac Levin</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/isaac2004/dotnet-cowsay</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/isaac2004/dotnet-cowsay.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IsPackable>false</IsPackable>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+    <LangVersion>Latest</LangVersion>
+
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateFullPaths Condition="'$(VSCODE_PID)' != ''">true</GenerateFullPaths>
+
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory).build\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory).build\bin\$(MSBuildProjectName)</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>
