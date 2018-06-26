@@ -39,4 +39,5 @@ dotnet cowsay
 
 
 ```
-
+Credit to @terrytrent for creating CowsaySharp where I took some of the Cowsay code
+https://github.com/terrytrent/CowsaySharp
