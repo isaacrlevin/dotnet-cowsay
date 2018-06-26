@@ -1,6 +1,7 @@
 <Project>
 
   <PropertyGroup>
+  <Title>dotnet cowsay</Title>
     <Authors>Isaac Levin</Authors>
     <Product>dotnet-cowsay</Product>
     <Copyright>Copyright © Isaac Levin</Copyright>
@@ -13,6 +14,7 @@
     <IsPackable>false</IsPackable>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <LangVersion>Latest</LangVersion>
+    <NeutralLanguage>en</NeutralLanguage>
 
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateFullPaths Condition="'$(VSCODE_PID)' != ''">true</GenerateFullPaths>
