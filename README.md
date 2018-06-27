@@ -4,7 +4,8 @@
 ## Installation
 
 ```bash
-dotnet install tool -g dotnet-cowsay
+dotnet tool install -g dotnet-cowsay
+
 ```
 
 ## Usage
