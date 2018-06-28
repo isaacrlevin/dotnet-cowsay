@@ -14,6 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Kurukuru" Version="1.0.0" />
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.4" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
