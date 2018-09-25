@@ -23,7 +23,7 @@ namespace dotnetcowsay
 
         private async Task GetLink()
         {
-            await Spinner.StartAsync("Looking for an awesome article..", async spinner =>
+            await SpinnerEx.StartAsync("Looking for an awesome article..", async spinner =>
             {
                 try
                 {
@@ -41,7 +41,6 @@ namespace dotnetcowsay
                     var bubbleText = blog.title + Environment.NewLine + blog.newestFeedItem.title + Environment.NewLine + blog.newestFeedItem.link;
                     string SpeechBubbleReturned = SpeechBubble.ReturnSpeechBubble(bubbleText, new SayBubbleChars(), blog.newestFeedItem.link.Length);
                     Console.WriteLine(Environment.NewLine + SpeechBubbleReturned + Environment.NewLine + cow);
-                    spinner.Succeed("");
                 }
                 catch
                 {
