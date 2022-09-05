@@ -5,18 +5,22 @@
     <PackAsTool>True</PackAsTool>
     <IsPackable>true</IsPackable>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net6.0</TargetFrameworks>
+    <RollForward>LatestMajor</RollForward>
     <AssemblyName>dotnet-cowsay</AssemblyName>
     <RootNamespace>dotnetcowsay</RootNamespace>
     <Version>1.0.0</Version>
     <Description>.NET Core Global Tool that gives a a random blog post from discoverdot.net</Description>
     <PackageTags>dotnet, global tools, cowsay</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <DebugType>embedded</DebugType>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Kurukuru" Version="1.0.0" />
-    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.4" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Kurukuru" Version="1.4.2" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
 </Project>
